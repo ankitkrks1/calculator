@@ -8,7 +8,7 @@ function App() {
 
   const handleVal = (e)=>{
     if(e==='C'){
-      setVal(0)
+      setVal('')
     }
     else if(e==='X'){
       setVal(val=>val.slice(0,val.length-1))
@@ -18,7 +18,7 @@ function App() {
 
   }
   const handleCal = (e)=>{
-    setVal(JSON.stringify(eval(val)))
+    setVal(eval(val).toString())
   }
   const handleC = (val)=>{
     setVal(0)
