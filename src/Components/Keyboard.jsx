@@ -36,6 +36,8 @@ const Keyboard = ({ handleVal }) => {
         <Key num="C" handleVal={handleVal} />
         <Key num="X" handleVal={handleVal} />
       </div>
+        <Key num="." handleVal={handleVal} />
+      <div></div>
     </div>
   );
 };
