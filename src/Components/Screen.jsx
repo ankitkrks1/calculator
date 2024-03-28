@@ -1,4 +1,5 @@
-import{React, useRef} from 'react'
+import React from 'react'
+import{ useRef} from 'react'
 
 const Screen = ({val}) => {
   const inputRef = useRef()
@@ -8,7 +9,8 @@ const Screen = ({val}) => {
   }
   return (
     <div>
-      <input className='screen' ref={inputRef} value={val} autoFocus onBlur={focus}/>
+      {/* <input className='screen' ref={inputRef} value={val} autoFocus onBlur={focus}/> */}
+      <input/>
     </div>
   )
 }

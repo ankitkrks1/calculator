@@ -1,5 +1,5 @@
+import React from 'react';
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
 import './App.css'
 import Screen from "./Components/Screen";
 import Keyboard from './Components/Keyboard';
