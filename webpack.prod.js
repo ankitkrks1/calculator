@@ -37,7 +37,9 @@ module.exports = (_, argv) => ({
       name: "calculator",
       filename: "remoteEntry.js",
       remotes: {},
-      exposes: {},
+      exposes: {
+        './Cal':'./src/Cal'
+      },
       shared: {
         ...deps,
         react: {
